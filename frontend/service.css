@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+/* Header */
+header {
+    background: #111827;
+    padding: 25px 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Booking Container */
+.booking-container {
+    width: 550px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.booking-box h1 {
+    text-align: center;
+    color: #111827;
+    margin-bottom: 35px;
+}
+
+/* Labels */
+.booking-box label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* Inputs */
+.booking-box input,
+.booking-box select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Button */
+.booking-box button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.booking-box button:hover {
+    background: #1d4ed8;
+}

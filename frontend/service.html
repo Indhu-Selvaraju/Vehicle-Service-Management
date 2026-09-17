@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Service - AutoCare</title>
+
+    <link rel="stylesheet" href="service.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">AutoCare</h2>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="booking-container">
+
+        <div class="booking-box">
+
+            <h1>Book Your Vehicle Service</h1>
+
+            <form id="bookingForm">
+
+                <label>Vehicle Number</label>
+                <input
+                    type="text"
+                    id="vehicleNumber"
+                    placeholder="TN01AB1234"
+                    required
+                >
+
+                <label>Vehicle Model</label>
+                <input
+                    type="text"
+                    id="vehicleModel"
+                    placeholder="Example: Swift"
+                    required
+                >
+
+                <label>Service Type</label>
+                <select id="serviceType" required>
+                    <option value="">Select Service</option>
+                    <option value="General Service">General Service</option>
+                    <option value="Oil Change">Oil Change</option>
+                    <option value="Engine Repair">Engine Repair</option>
+                    <option value="Brake Service">Brake Service</option>
+                    <option value="Full Service">Full Service</option>
+                </select>
+
+                <label>Service Date</label>
+                <input
+                    type="date"
+                    id="serviceDate"
+                    required
+                >
+
+                <button type="submit">Book Service</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="service.js"></script>
+
+</body>
+</html>
