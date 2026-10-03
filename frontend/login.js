@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     };
 
     try {
-        const response = await fetch("http://localhost:8080/api/customers/login", {
+       const response = await fetch("https://vehicle-service-management-production-c0c0.up.railway.app/api/customers/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

@@ -16,7 +16,7 @@ document.getElementById("bookingForm").addEventListener("submit", async function
 
     try {
 
-        const response = await fetch("http://localhost:8080/api/bookings", {
+        const response = await fetch("https://vehicle-service-management-production-c0c0.up.railway.app/api/bookings", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

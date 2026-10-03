@@ -17,7 +17,7 @@ document.getElementById("registerForm").addEventListener("submit", async functio
     // Send data to Spring Boot
     try {
 
-        const response = await fetch("http://localhost:8080/api/customers/register", {
+        const response = fetch("https://vehicle-service-management-production-c0c0.up.railway.app/api/customers/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
